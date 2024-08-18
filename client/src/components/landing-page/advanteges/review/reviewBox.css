@@ -1,0 +1,36 @@
+.box {
+    width: 100%;
+    max-width: 100%;
+    padding: 32px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.designation {
+    font-size: 14px;
+}
